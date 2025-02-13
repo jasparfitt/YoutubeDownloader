@@ -15,7 +15,10 @@
     }
   ],
   "autoload": {
-    "classmap": ["src/Request", "src/Response"],
+    "classmap": [
+      "src/Request",
+      "src/Response"
+    ],
     "psr-4": {
       "YoutubeDownloader\\": "src/"
     }
@@ -28,7 +31,7 @@
   "license": "RPL-1.5",
   "require": {
     "php": ">=7.0",
-    "guzzlehttp/guzzle": "6.2",
+    "guzzlehttp/guzzle": "^7.0",
     "google/protobuf": "3.11"
   },
   "scripts": {
